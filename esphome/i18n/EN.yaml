@@ -3,8 +3,7 @@ substitutions:
   s_499: Restart WTW unit.
   s_2000: Real ventilation level (synchronised with BRDG)
   s_2001: Real ventilation level (BRDG) - on/off
-  s_2020: Mass flow, intake fan (no mass balance)
-  s_2021: Mass flow, intake fan (no mass balance) - on/off
+
   s_2022: Mass flow, exhaust fan (no mass balance)
   s_2023: Mass flow, exhaust fan (no mass balance) - on/off
   s_2034: Position stepper zone flap 1
