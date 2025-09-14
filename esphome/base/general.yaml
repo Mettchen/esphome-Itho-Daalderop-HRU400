@@ -370,7 +370,7 @@ switch:
     modbus_controller_id: ${modbus_id}
     register_type: holding
     
-  - name: "Test Switch"
+  - name: ${s_2023}
     address: 2023
     bitmask: 0
     platform: modbus_controller
