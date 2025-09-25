@@ -36,3 +36,9 @@ substitutions:
     speed_5:              300
     speed_6:              350
     speed_7:              399
+  
+  zone_1: "DEFINE"
+  zone_2: "DEFINE"
+  zone_3: "DEFINE"
+  zone_4: "Not Connected"
+  zone_5: "Not Connected"
