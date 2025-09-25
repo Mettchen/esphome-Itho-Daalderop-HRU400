@@ -55,10 +55,10 @@ sensor:
   - platform: modbus_controller
     modbus_controller_id: ${modbus_id}
     name: ${s_3020}
-    address: 3019
+    address: 3020
     unit_of_measurement: "rpm"
     value_type: U_WORD
-    register_type: holding
+    register_type: read
     state_class: measurement
     icon: mdi:speedometer
   - platform: modbus_controller
@@ -67,7 +67,7 @@ sensor:
     address: 3021
     unit_of_measurement: "rpm"
     value_type: U_WORD
-    register_type: holding
+    register_type: read
     state_class: measurement
     icon: mdi:speedometer
   - name: ${s_3022}
